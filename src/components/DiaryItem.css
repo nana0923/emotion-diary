@@ -49,9 +49,6 @@
 
 .DiaryItem .info_section .content {
   font-size: 18px;
-  max-height: 40px;
-  max-width: 118px;
-  white-space: break-word;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
