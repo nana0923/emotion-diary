@@ -8,13 +8,11 @@
 }
 
 .DiaryItem .img_section {
-  min-width: 120px;
+  width: 120px;
   height: 80px;
-
   display: flex;
   justify-content: center;
   cursor: pointer;
-
   border-radius: 5px;
 }
 
@@ -51,6 +49,14 @@
 
 .DiaryItem .info_section .content {
   font-size: 18px;
+  max-height: 40px;
+  max-width: 118px;
+  white-space: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 .DiaryItem .button_section {
