@@ -9,6 +9,9 @@ body {
   width: 100%;
   background-color: rgb(246, 246, 246);
   display: flex;
+  color: #000;
+  border: 0;
+  box-sizing: border-box;
 }
 
 #root {
@@ -24,4 +27,143 @@ body {
 
 body * {
   font-family: "NanumPenScript";
+}
+
+/* reset */
+html {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-text-size-adjust: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+html {
+  overflow-x: hidden;
+  -webkit-touch-callout: none;
+}
+
+body {
+  min-width: 320px;
+  max-width: 100%;
+  font-family: "NanumPenScript", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+table,
+th,
+td {
+  border-collapse: collapse; /*border-spacing: 0;*/
+}
+input,
+textarea,
+button,
+select {
+  font-family: "NanumPenScript", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  outline: none;
+}
+input[type="text"]::-ms-clear,
+input[type="tel"]::-ms-clear {
+  display: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+} /* IE 10, 11의 네이티브 화살표 숨기기 */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+button {
+  overflow: visible\9;
+} /* button fix for ie8 */
+label {
+  cursor: pointer;
+}
+label img {
+  pointer-events: none;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+input::-moz-placeholder {
+  color: #999;
+}
+input:-moz-placeholder {
+  color: #999;
+}
+input:-ms-input-placeholder {
+  color: #999;
+}
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+textarea::-moz-placeholder {
+  color: #999;
+}
+textarea:-moz-placeholder {
+  color: #999;
+}
+textarea:-ms-input-placeholder {
+  color: #999;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+input:focus::-moz-placeholder {
+  color: transparent !important;
+}
+input:focus:-moz-placeholder {
+  color: transparent !important;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent !important;
+}
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent !important;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent !important;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent !important;
+}
+a {
+  text-decoration: none;
+  color: #242424;
+}
+img {
+  border: 0;
+  width: 100%;
 }
