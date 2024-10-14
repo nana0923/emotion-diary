@@ -13,6 +13,20 @@
   cursor: pointer;
 }
 
+.DiaryList .menu_bar .select_box {
+  position: relative;
+}
+.DiaryList .menu_bar .select_box::after {
+  content: "\25BC";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 12px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .DiaryList .menu_bar button {
   flex: 1;
 }
