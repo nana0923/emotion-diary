@@ -5,6 +5,8 @@
 
 한입으로 잘라먹는 리액트 최종 프로젝트 감정일기장 따라해보기.
 
+배포 사이트: https://emotion-diary-new.vercel.app/
+
 ## 스택 & 라이브러리 선정
 
 vite / React
